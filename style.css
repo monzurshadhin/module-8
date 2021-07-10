@@ -1,0 +1,30 @@
+.box {
+  font-size: 3em;
+  width: 20%;
+  height: 200px;
+  border: 2px solid blue;
+}
+#box2 {
+  flex: 1;
+  order: 1;
+}
+#box1 {
+  order: 2;
+}
+.container {
+  display: flex;
+  height: 500px;
+  /* to justify content horizontally we need use justify-content: ; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+
+  /* to justify cintent vertically we need align-items: ; */
+  align-items: center;
+  /* align-items:flex-start; */
+  /* align-items: stretch; */
+  /* align-items: flex-end; */
+  border: 2px solid rebeccapurple;
+}
